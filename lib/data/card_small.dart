@@ -97,7 +97,7 @@ class CardSmall extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [subtitle, profit],
             ),
-            trailing: showGrowth(data.profit23, data.profit22),
+            trailing: showGrowth(data.profit22, data.profit23),
             onTap: () {
               Navigator.pushNamed(
                 context,
